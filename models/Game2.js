@@ -9,4 +9,4 @@ const schema = new mongoose.Schema({
 });
 
 // Compile model from schema
-module.exports = mongoose.model('Game2', schema , 'collection2');
+module.exports = mongoose.model('Game2', schema , 'game_id_refs');

@@ -13,7 +13,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-var uri = "mongodb://localhost:27017/baniamina";
+var uri = "mongodb://imourig:med123&5@95.111.245.112:27017/database_bot?authSource=admin";
 mongoose.connect(uri, { useUnifiedTopology: true, useNewUrlParser: true });
 const connection = mongoose.connection;
 connection.once("open", function() {
